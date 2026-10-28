@@ -1,0 +1,33 @@
+CDC PLACES DATA QUALITY REPORT
+========================================
+Dataset: PLACES: County Data (GIS Friendly Format), 2025 release
+Source: https://data.cdc.gov/d/i46a-9kgh
+State filter: WI
+Records retrieved: 72
+Expected Wisconsin county records: 72 (PASS)
+Columns after cleaning: 169
+Missing cells across all source columns: 0
+Missing county FIPS values: 0
+Rows involved in duplicate county IDs: 0
+Duplicate county IDs beyond first occurrence: 0
+Prevalence columns checked: 80
+Missing prevalence cells: 0
+Out-of-range prevalence cells: 0
+Rows with out-of-range prevalence: 0
+Rows with one or more row-level flags: 0
+
+Missing values and flagged records are retained for review.
+Prevalence range checks assume percentage estimates from 0 to 100.
+Confidence-interval fields ending in _95ci remain text and are not parsed.
+
+Columns with the most missing values:
+  stateabbr: 0
+  statedesc: 0
+  countyname: 0
+  countyfips: 0
+  totalpopulation: 0
+  totalpop18plus: 0
+  access2_crudeprev: 0
+  access2_crude95ci: 0
+  access2_adjprev: 0
+  access2_adj95ci: 0
